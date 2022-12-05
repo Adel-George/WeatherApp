@@ -1,0 +1,79 @@
+a{
+    cursor: pointer;
+}
+.nav-item a:hover{
+    border: #009ad8 solid 2px; 
+    border-radius: 20px;
+    color: #009ad8 !important;
+
+}
+.cover{
+    height:352px;
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+}
+nav{
+    background-color:#1e202b ;
+}
+input{
+    background-color:#1e202b!important ;
+    border: none!important;
+}
+ button{
+    background-color:#009ad8!important ;
+    bottom: 5px;
+    right: 15px;
+    padding: 10px 0 !important;
+}
+.card-header {
+    background-color:#333645 ;
+    color:#bfc1c8 ;
+
+}
+.card-body{
+    background-color:#333645 ;
+    color:#bfc1c8 ;
+
+}
+#card-header{
+    background-color:#1e202b ;
+
+}
+.cardBody{
+    background-color:#1e202b ;
+}
+.card{
+    border: none!important;
+}
+body{
+    background-color: #1c1e27;
+}
+footer{
+    height: 40vh;
+}
+.footer{
+    background-color:#333645 ;
+}
+.icolor{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1c1e27;
+    color: #009ad8;
+}
+
+.icolor:hover {
+    background-color: #009ad8;
+    color: white;
+}
+#East{
+    color: #009ad8;
+}
+h5[first]{
+font-size: 60px;
+color: white;
+}
+span[coontlist]{
+    padding-left: 140px;
+}

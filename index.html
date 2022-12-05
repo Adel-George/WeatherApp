@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container-fluid ">
+          <img src="images/logo.png" alt="logo" class="ps-3">
+          <a class="navbar-brand fs-3 ps-2 text-light ">Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4 fw-bolder ">
+              <li class="nav-item ">
+                <a class="nav-link active text-light " aria-current="page">Home</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link text-light">News</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link text-light">Live</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link text-light">cameras</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link text-light">Photos</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link text-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<section>
+  <div class="cover">
+    <div class="container-lg">
+      <div class="row">
+        <div class=" col-lg-9 col-sm-10 mx-auto pt-5 position-relative">
+          <input type="text" class="form-control py-3 ps-4 rounded-5 text-light" id="FindInput" aria-describedby="emailHelp" placeholder="Find your location...">
+          <button  class="btn btn-primary  px-5 rounded-5 position-absolute" id="Find">Find</button>
+        </div>
+      </div>
+        <div class="row-cols-lg row-cols-sm-12 pt-5 mt-5 w-75 mx-auto">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-header d-lg-flex justify-content-lg-between ">
+                <small class="text-muted fs-5" id="getWeekday"></small>
+                <small class="text-muted fs-5"id="getMonth"></small>
+              </div>
+              <div class="card-body" id="cardBody"></div>
+            </div>
+            <div class="card">
+              <div class="card-header text-center" id="card-header">
+                <small class="text-muted fs-5" id="getWeekday"></small>
+              </div>
+              <div class="card-body text-center py-5 cardBody" id="cardBody"></div>
+            </div>
+            <div class="card">
+              <div class="card-header text-center">
+                <small class="text-muted fs-5" id="getWeekday"></small>
+              </div>
+              <div class="card-body text-center py-5" id="cardBody"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class=" mt-5">
+      <div class="d-flex  align-items-end text-light h-100 mt-5 ">
+        <div class="container-fluid footer py-2">
+          <div class="row">
+            <div class=" col-lg-6 col-sm-10 mb-4 pt-5 position-relative offset-lg-1">
+              <input type="text" class="form-control py-3 ps-4 rounded-5 text-light" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email to subscribe...">
+              <button  class="btn btn-primary  px-5 rounded-5 position-absolute ">Find</button>
+            </div>
+            <div class="col-lg-5">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="icolor d-flex align-items-center justify-content-center mx-1">
+                  <i class="fa-brands fa-facebook-f fa-lg  "></i>
+                </div>
+                <div class="icolor d-flex align-items-center justify-content-center  mx-1">
+                  <i class="fa-brands fa-twitter  fa-lg"></i>
+                </div>
+                <div class="icolor d-flex align-items-center justify-content-center mx-1">
+                  <i class="fa-brands fa-google-plus-g fa-lg"></i>
+                </div>
+                <div class="icolor d-flex align-items-center justify-content-center mx-1 " >
+                  <i class="fa-brands fa-pinterest-p  fa-lg"></i>
+                </div>
+  
+              </div>
+            </div>
+            <span class="mb-3" coontlist>Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+
+  </div>
+</section>
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
+

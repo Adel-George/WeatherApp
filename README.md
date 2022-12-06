@@ -9,7 +9,6 @@ A weather web app to check for weather status, make input the name of the city y
 - Get weather by current position or any given city
 - The weather is updated every hour
 - Responsive
-- 
 
 ## Technologies
 - HTML
